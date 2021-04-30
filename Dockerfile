@@ -1,4 +1,4 @@
-FROM jupyter/minimal-notebook:b90cce83f37b
+FROM jupyter/minimal-notebook:584f43f06586
 
 RUN conda install --quiet --yes \
     nb_conda \
